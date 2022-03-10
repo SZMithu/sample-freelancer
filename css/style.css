@@ -11,9 +11,7 @@
 .right{
     margin-left: auto;
 }
-/* .nav-item{
-    position: relative;
-} */
+
 .nav-link:hover{
    
     text-decoration: underline;
@@ -28,11 +26,7 @@
     font-weight: bold;
 }
 /* black section */
-#black{
-    transform:translateY(-200px);
-    
 
-}
 .text_black{
     line-height: 1.8;
 }
