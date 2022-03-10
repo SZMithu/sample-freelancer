@@ -1,0 +1,51 @@
+:root{
+    --main_color: #17c76f;
+}
+.maincolor{
+    background-color: var(--main_color);
+}
+.mycolor{
+    color: var(--main_color);
+}
+.btn_hover:hover{
+    background-color: #309b65;
+    color: antiquewhite;
+}
+/* nav */
+.right{
+    margin-left: auto;
+}
+
+.nav-link:hover{
+   
+    text-decoration: underline;
+    text-decoration-color: var(--main_color);
+    text-decoration-style: unset;
+    text-decoration-thickness: 3px;
+   
+    
+}
+#hero h1{
+    font-size:5rem;
+    font-weight: bold;
+}
+/* black section */
+
+.text_black{
+    line-height: 1.8;
+}
+
+
+/* Footer */
+.use_hover:hover{
+    text-decoration: underline !important;
+    text-decoration-color: var(--main_color) !important;
+    text-decoration-style: unset;
+    text-decoration-thickness: 2px;
+    
+}
+.point:hover{
+    cursor: pointer;
+    background-color: #309b65;
+    color: antiquewhite;
+}
